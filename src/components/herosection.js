@@ -22,7 +22,10 @@ function HeroSection() {
           <img src="/heroimg.svg" />
         </div>
       </div>
-      <img className="py-[56px] max-w-[1200px] mx-auto" src="/herologo.png" />
+      <img
+        className="py-[56px]  lg:max-w-[1250px] lg:mx-auto object-contain"
+        src="/herologo.png"
+      />
     </div>
   );
 }
