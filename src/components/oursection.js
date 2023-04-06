@@ -1,12 +1,11 @@
 import Card from "./card";
 import H3 from "./h3";
+import Our from "./our";
 
 function Oursection() {
   return (
     <div className="mt-[84px] max-w-[1200px] mx-auto">
-      <p className="flex justify-center text-[20px] font-[400] text-[#777777]">
-        Our Services
-      </p>
+      <Our our={"Our Services"} />
       <div className=" mx-2 md:mx-4  lg:max-w-[842px] lg:mx-auto ">
         <H3 h3={"Handshake infographic mass market crowdfunding iteration."} />
       </div>

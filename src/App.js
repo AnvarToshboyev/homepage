@@ -1,6 +1,7 @@
+import Accordions from "./components/accordion";
+import BlogSection from "./components/blogsection";
 import Connectsection from "./components/connectsection";
 import Customersection from "./components/customersection";
-import Header from "./components/header";
 import HeroSection from "./components/herosection";
 import Oursection from "./components/oursection";
 import Swiperbutton from "./components/swiperbutton";
@@ -14,6 +15,8 @@ function App() {
       <Connectsection />
       <Customersection />
       <Swiperbutton />
+      <Accordions />
+      <BlogSection />
     </>
   );
 }
