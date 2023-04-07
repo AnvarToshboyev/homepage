@@ -46,7 +46,7 @@ export const righticon = (
     />
   </svg>
 );
-export const top = (
+export const check = (
   <svg
     width="499"
     height="37"

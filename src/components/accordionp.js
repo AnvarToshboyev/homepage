@@ -1,36 +1,26 @@
-import { useState } from "react";
-import { top } from "../utilts/icon";
+import { check } from "../utilts/icon";
 
 function Accordeionp(props) {
-  const [isVisible, setIsVisible] = useState(false);
-  const toggleVisible = () => {
-    setIsVisible(!isVisible);
-  };
-
   return (
-    <div className="   rounded-[24px]  ">
-      <div className={`${isVisible ? "" : "h-[108px]"} rounded-[40px]  `}>
-        <div className="flex justify-between px-[30px] pt-[30px] ">
-          <span className="text-[#000000]  text-[20px] font-[400]">
-            {props.title}
-          </span>
-          <button
-            onClick={toggleVisible}
-            className="  rounded-full w-[28px] bg-[#0A2640] flex items-center justify-center h-[28px] "
-          >
-            {isVisible ? "-" : top}
-          </button>
-        </div>
-        <div className="mx-10">
-          {isVisible && (
-            <p className="text-[#000000]  text-[20px] font-[400]">
-              {props.body}
-            </p>
-          )}
-        </div>
-      </div>
+    <div className="flex justify-between items-center">
+      <p className="text-[#000000] text-[20px] font-[400]">{props.title}</p>
+      <svg
+        width="28"
+        height="28"
+        viewBox="0 0 28 28"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="14" cy="14" r="14" fill="#0A2640" />
+        <path
+          d="M8 12L14 18L20 12"
+          stroke="white"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </div>
   );
 }
-
 export default Accordeionp;
