@@ -13,7 +13,7 @@ function BlogSection() {
         <Bloggrid
           image={"/blogimg.png"}
           titles={"Pitch termsheet backing validation focus release."}
-          images={"/blogimg3.png"}
+          images={"/blogimg4.png"}
           title1={"Chandler Bing"}
         />
         <Bloggrid
@@ -29,7 +29,7 @@ function BlogSection() {
           titles={
             "Beta prototype sales iPad gen-z marketing network effects value proposition"
           }
-          images={"/blogimg3.png"}
+          images={"/blogimg5.png"}
           title1={"Monica Geller"}
         />
       </div>

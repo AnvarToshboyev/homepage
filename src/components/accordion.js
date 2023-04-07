@@ -1,3 +1,4 @@
+import Accordeionp from "./accordionp";
 import H2 from "./h2";
 
 function Accordions() {
@@ -15,7 +16,9 @@ function Accordions() {
             }
           />
         </div>
-        <div></div>
+        <div>
+          <Accordeionp title={"We connect our customers with the best?"} />
+        </div>
       </div>
     </div>
   );

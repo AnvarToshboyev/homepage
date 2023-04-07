@@ -24,7 +24,7 @@ function Swiperslates(props) {
         swiper.params.navigation.nextEl = props.navigationNextRef.current;
       }}
       modules={[Pagination, Navigation]}
-      className=""
+      className="grid grid-cols-1"
     >
       <SwiperSlide>
         <Carusel
